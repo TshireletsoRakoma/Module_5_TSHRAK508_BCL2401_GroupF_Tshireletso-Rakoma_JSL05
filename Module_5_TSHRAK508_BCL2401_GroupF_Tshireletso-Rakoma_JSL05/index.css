@@ -39,3 +39,19 @@ h1 {
     color: #00FF00; /* Green color on hover */
 }
 
+/* Style links */
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Remove dots from playlist */
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
